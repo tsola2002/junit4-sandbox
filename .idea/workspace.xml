@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b17599a-42cc-4e95-9a5a-db914194d60b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tsola2002/sut/ResourceForAllTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tsola2002/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tsola2002/calculator/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/tsola2002/sut/SUTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tsola2002/sut/SUTTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +52,18 @@
       <recent name="com.tsola2002.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SUTTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tsola2002.Main" />
+  <component name="RunManager" selected="JUnit.CalculatorTest.testAddition">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit4-sandbox" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tsola2002.*" />
+          <option name="PATTERN" value="com.tsola2002.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.tsola2002.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.tsola2002.calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit4-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsola2002.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsola2002.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.tsola2002.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SUTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit4-sandbox" />
       <extension name="coverage">
@@ -97,11 +115,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SUTTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit4-sandbox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tsola2002.sut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tsola2002.sut" />
+      <option name="MAIN_CLASS_NAME" value="com.tsola2002.sut.SUTTest" />
+      <option name="METHOD_NAME" value="testAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testAddition" />
+        <item itemvalue="JUnit.SUTTest.testAddition" />
         <item itemvalue="JUnit.SUTTest" />
         <item itemvalue="JUnit.CalculatorTest.add" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
