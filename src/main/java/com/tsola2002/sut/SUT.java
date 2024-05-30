@@ -22,4 +22,9 @@ public class SUT {
   public void close() {
     System.out.println(systemName + " from class " + getClass().getSimpleName() + " is closing.");
   }
+
+  public void longRunningMethod() throws InterruptedException {
+    // Simulating a long-running task
+    Thread.sleep(4000);
+  }
 }
